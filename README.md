@@ -4,17 +4,6 @@ An end-to-end financial analysis of three PSX-listed FMCG companies. Financial s
 
 **Comparison window:** FY2022-FY2025 (the four years all three companies share)
 
-## Dashboard preview
-
-| Liquidity & Leverage | Profitability |
-|---|---|
-| ![Liquidity and Leverage](images/01_liquidity_leverage.png) | ![Profitability](images/02_profitability.png) |
-
-| Efficiency | Growth |
-|---|---|
-| ![Efficiency](images/03_efficiency.png) | ![Growth](images/04_growth.png) |
-
-**Walkthrough video (interactions and data model):** [ADD VIDEO LINK HERE]
 
 ## Companies analysed
 
