@@ -56,23 +56,6 @@ All ratios use year-end balances, not averages.
 - For National Foods, ROE and debt-to-equity use equity excluding minority interest, and net profit is the portion attributable to shareholders.
 - Interest expense is stored as a positive number.
 
-## Repository structure
-
-```
-├── data/        CSV and Excel staging files
-├── sql/         table definitions and ratio views
-├── powerbi/     Power BI report (.pbix)
-├── images/      dashboard screenshots
-└── README.md
-```
-
-## How to reproduce
-
-1. Create a PostgreSQL database and run the scripts in `sql/` to create the tables.
-2. Import `data/companies.csv` first, then `data/financial_statements.csv`.
-3. Run the view scripts in `sql/`.
-4. Open the `.pbix` in Power BI Desktop, then go to **Transform data -> Data source settings** and point it to your own PostgreSQL server and database.
-5. Click **Refresh**.
 
 ## Limitations
 
